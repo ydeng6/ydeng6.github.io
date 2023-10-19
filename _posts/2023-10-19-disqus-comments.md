@@ -1,11 +1,11 @@
 ---
 layout: post
 title: a new atart
-date: 2023-10-19 11:59:00-0400
-description: an example of a blog post with disqus comments
-tags: comments
-categories: sample-posts external-services
-disqus_comments: true
+date: 2023-10-17 11:59:00-0400
+description: 
+tags: 
+categories: sample-posts
+disqus_comments: false
 related_posts: false
 ---
 
