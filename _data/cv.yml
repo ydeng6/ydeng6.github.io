@@ -1,7 +1,7 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
+    - name: Name
       value: Yupeng Deng
 
 - title: Education
@@ -11,32 +11,20 @@
       institution: National University of Singapore
       year: 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Robotics
     - title: Bachelor
       institution: Sun Yat-Sen University
       year: 2018
       description:
-        - Description 1.
-        - Description 2.
+        - Telecommunication Engineering
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Computer Vision
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Unsupervised Domain Adaption
+        - Embodied AI
+    - title: Large Language Model
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - Hobby 1, Hobby 2, etc.
+        - AI Agent
