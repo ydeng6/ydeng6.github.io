@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ydeng6.github.io/al-folio/sitemap.xml
+Sitemap: https://ydeng6.github.io/sitemap.xml
