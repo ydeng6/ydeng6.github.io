@@ -5,6 +5,8 @@
       value: Yupeng Deng
     - name: Location
       value: Singapore
+    - name: Email
+      value: ydeng@u.nus.edu
 
 - title: Education
   type: time_table
