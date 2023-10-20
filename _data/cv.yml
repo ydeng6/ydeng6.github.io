@@ -3,6 +3,8 @@
   contents:
     - name: Name
       value: Yupeng Deng
+    - name: Location
+      value: Singapore
 
 - title: Education
   type: time_table

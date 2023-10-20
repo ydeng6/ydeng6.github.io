@@ -1,6 +1,6 @@
 ---
 layout: post
-title: a new atart
+title: A New Start
 date: 2023-10-17 11:59:00-0400
 description: 
 tags: 
