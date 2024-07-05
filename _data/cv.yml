@@ -26,6 +26,7 @@
   type: nested_list
   contents:
       items: 
+      - title: Computer Vison
         - Unsupervised Domain Adaption
-        - Embodied AI
         - Multimodal Large Models
+        - Embodied AI

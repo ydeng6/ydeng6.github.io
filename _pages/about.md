@@ -21,6 +21,6 @@ social: true  # includes social icons at the bottom of the page
 
 My name is Yupeng Deng. I'm a graduate student from [School of Mechanical Engineering](https://cde.nus.edu.sg/me/), [National University of Singapore](https://www.nus.edu.sg/).
 
-My research interests encompass Unsupervised Domain Adaptation, AI Agents, and Embodied AI.
+My research interests encompass Unsupervised Domain Adaptation, Multimodal Large Models and Embodied AI.
 
 
