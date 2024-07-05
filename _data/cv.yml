@@ -25,8 +25,8 @@
 - title: Academic Interests
   type: nested_list
   contents:
+    - title: Computer Vison
       items: 
-      - title: Computer Vison
         - Unsupervised Domain Adaption
         - Multimodal Large Models
         - Embodied AI
