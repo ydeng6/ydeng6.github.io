@@ -25,10 +25,7 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Computer Vision
       items: 
         - Unsupervised Domain Adaption
         - Embodied AI
-    - title: Large Language Model
-      items:
-        - AI Agent
+        - Multimodal Large Models
