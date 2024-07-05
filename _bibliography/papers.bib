@@ -8,11 +8,11 @@
   booktitle={European Conference on Computer Vision},
   year={2024},
   code={https://github.com/Cuzyoung/CoDA},
-  selected={true}
+  selected={true},
+  preview={eccv2024.png}
 }
 
 @inproceedings{li2024parsing,
-  bibtex_show={True},
   title={Parsing All Adverse Scenes: Severity-aware Semantic Segmentation with Mask-enhanced Cross-domain Consistency},
   author={Li, Fuhao and Gong, Ziyang and Deng, Yupeng and Ma, Xianzheng and Zhang, Renrui and Ji, Zhenming and Zhu, Xiangwei and Zhang, Hong},
   abstract={Although recent methods in Unsupervised Domain Adaptation (UDA) have achieved success in segmenting rainy or snowy scenes by improving consistency, they face limitations when dealing with more challenging scenarios like foggy and night scenes. We argue that these prior methods excessively focus on weather-specific features in adverse scenes, which exacerbates the existing domain gaps. To address this issue, we propose a new metric to evaluate the severity of all adverse scenes and offer a novel perspective that enables task unification across all adverse scenarios. Our method focuses on Severity, allowing our model to learn more consistent features and facilitate domain distribution alignment, thereby alleviating domain gaps. Unlike the vague descriptions of consistency in previous methods, we introduce Cross-domain Consistency, which is quantified using the Structure Similarity Index Measure (SSIM) to measure the distance between the source and target domains. Specifically, our unified model consists of two key modules: the Merging Style Augmentation Module (MSA) and the Severity Perception Mask Module (SPM). The MSA module transforms all adverse scenes into augmented scenes, effectively eliminating weather-specific features and enhancing Cross-domain Consistency. The SPM module incorporates a Severity Perception mechanism, guiding a Mask operation that enables our model to learn highly consistent features from the augmented scenes. Our unified framework, named PASS (Parsing All adverSe Scenes), achieves significant performance improvements over state-of-the-art methods on widely-used benchmarks for all adverse scenes. Notably, the performance of PASS is superior to Semi-Unified models and even surpasses weather-specific models.},
@@ -25,7 +25,6 @@
 }
 
 @inproceedings{gong2023train,
-  bibtex_show={True},
   title={Train One, Generalize to All: Generalizable Semantic Segmentation from Single-Scene to All Adverse Scenes},
   author={Gong, Ziyang and Li, Fuhao and Deng, Yupeng and Shen, Wenjun and Xia, Nan and Ma, Xianzheng and Ji, Zhenming},
   abstract={Unsupervised Domain Adaptation (UDA) for semantic segmentation has received widespread attention for its ability to transfer knowledge from the source to target domains without a high demand for annotations. However, semantic segmentation under adverse conditions still poses significant challenges for autonomous driving, as bad weather observation data may introduce unforeseeable problems. Although previous UDA works are devoted to adverse scene tasks, their adaptation process is redundant. For instance, unlabeled snow scene training data is a must for the model to achieve fair segmentation performance in snowy scenarios. We propose calling this type of adaptation process the Single to Single (STS) strategy. Clearly, STS is time-consuming and may show weaknesses in some comprehensive scenes, such as a night scene of sleet. Motivated by the concept of Domain Generalization (DG), we propose the Single to All (STA) model. Unlike DG, which trains models on one or multiple source domains without target domains, the STA model is based on UDA and employs one source domain, one target domain, and one introduced domain to achieve generalization to all adverse conditions by training on a single-scene dataset. Specifically, the STA model is advantageous as it learns from the source domain, reserves the style factors via a Reservation domain, and adapts the unified factors by the Randomization module. An Output Space Refusion module is also further incorporated to strengthen STA. Our STA achieves state-of-the-art performance in the Foggy Driving benchmark and demonstrates great domain generalizability in all conditions of the ACDC and Foggy Zurich benchmarks.},
